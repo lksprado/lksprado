@@ -21,7 +21,7 @@ That's why most of them are original and actively maintained: I keep improving
 them whenever I get the chance. I hope they inspire someone else to build 
 something too.
 
-You can also find me on [Tableau Public]([YOUR_LINK_HERE](https://public.tableau.com/app/profile/lcsprado/vizzes)), where I've been 
+You can also find me on [Tableau Public](https://public.tableau.com/app/profile/lcsprado/vizzes), where I've been 
 sharing visualizations since the beginning of my data career.
 
 
