@@ -5,7 +5,7 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 
-# Hi there 👋
+# About me
 
 My name is Lucas, I am Data Engineer based in São Paulo, SP.
 
@@ -21,12 +21,11 @@ That's why most of them are original and actively maintained: I keep improving
 them whenever I get the chance. I hope they inspire someone else to build 
 something too.
 
-You can also find me on [Tableau Public](https://public.tableau.com/app/profile/lcsprado/vizzes), where I've been 
+Currently, my data stack is layered in 3 repos:
+
+- my_ingestion: ETL pipelines
+- my_analytics: Dimension modeling and data marts
+- my_orchestration: Airflow for job orchestratin
+
+Check out [Tableau Public](https://public.tableau.com/app/profile/lcsprado/vizzes), where I've been 
 sharing visualizations since the beginning of my data career.
-
-
-##  :books: Main interests
-- Political Science
-- History
-- Philosophy
-- Literature
