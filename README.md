@@ -7,25 +7,27 @@
 
 # About me
 
-My name is Lucas, I am Data Engineer based in São Paulo, SP.
+My name is Lucas, I'm a Data Engineer based in São Paulo, SP.
 
-I genuinely love working with data. Not just as a profession, but as a way of 
+I genuinely love working with data. Not just as a profession, but as a way of
 making sense of things.
 
 ## About my repos
 
-My repositories aren't just practice grounds. Each one exists because something 
-sparked my curiosity and I believe discoveries are worth sharing.
+Instead of spreading my time across small, isolated projects, I build and maintain
+a single end-to-end data platform running on my own home server. It's my
+**homeprod**: real pipelines, on real schedules, processing data I actually use
+day to day.
 
-That's why most of them are original and actively maintained: I keep improving 
-them whenever I get the chance. I hope they inspire someone else to build 
-something too.
+The platform is split into three repos, one per layer:
 
-Currently, my data stack is layered in 3 repos:
+- [my_ingestion](link): ETL pipelines that extract and load data from external sources
+- [my_analytics](link): dimensional modeling and data marts
+- [my_orchestration](link): Airflow DAGs that schedule and tie everything together
 
-- my_ingestion: ETL pipelines
-- my_analytics: Dimension modeling and data marts
-- my_orchestration: Airflow for job orchestratin
+Why not a monorepo? Each layer has its own lifecycle, dependencies and deploy
+cadence, so keeping them separate mirrors how data teams usually split
+responsibilities in production, while still working as one system.
 
-Check out [Tableau Public](https://public.tableau.com/app/profile/lcsprado/vizzes), where I've been 
-sharing visualizations since the beginning of my data career.
+Check out my [Tableau Public](https://public.tableau.com/app/profile/lcsprado/vizzes),
+where I've been sharing visualizations since the beginning of my data career.
