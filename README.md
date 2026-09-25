@@ -21,9 +21,9 @@ day to day.
 
 The platform is split into three repos, one per layer:
 
-- [my_ingestion](link): ETL pipelines that extract and load data from external sources
-- [my_analytics](link): dimensional modeling and data marts
-- [my_orchestration](link): Airflow DAGs that schedule and tie everything together
+- [my_ingestion]([link](https://github.com/lksprado/my_ingestion)): ETL pipelines that extract and load data from external sources
+- [my_analytics]([link](https://github.com/lksprado/my_analytics)): dimensional modeling and data marts
+- [my_orchestration]([link](https://github.com/lksprado/my_orchestrator)): Airflow DAGs that schedule and tie everything together
 
 Why not a monorepo? Each layer has its own lifecycle, dependencies and deploy
 cadence, so keeping them separate mirrors how data teams usually split
